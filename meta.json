@@ -4,23 +4,54 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "placeid",
+            "title":"Place ID"
+        },
+        {
+            "id": "reference",
+            "title":"Reference"
+        },
+        {
+            "id": "extensions",
+            "title":"Extensions"
+        },
+        {d
+            "id": "language",
+            "title":"Language"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "formatted_address",
+            "title":"Address"
+        },
+        {
+            "id": "formatted_phone_number",
+            "title":"Phone Number"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "rating",
+            "title":"Rating"
+        },
+        {
+            "id": "url",
+            "title":"URL"
+        },
+        {
+            "id": "vicinity",
+            "title":"Vicinity"
+        },
+        {
+            "id": "website",
+            "title":"Website"
         }
-      */
     ],
+    "icon": "dex-gmaps",
     "title": "Google Maps Get Place Details" /* Required.A display name for the module */
 }
